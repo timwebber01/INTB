@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Signika+Negative);
+/* ---------------------------Page Defaults--------------------------------- */
+
+@font-face {
+	font-family: HelveticaNeueLight;
+	src: url(HelveticaNeue.dfont);
+}
+
+/* Reset rule */
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+#Chart {
+	font-family: HelveticaNeueLight;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a:hover {
+	color:#000000;
+}
+/* ------------------------------ Div CSS ---------------------------------- */
+
+.Block {
+	margin-top: 10px;
+}
+
+.Block .Group p {
+	padding: 10px;
+}
+
+/* ----------- Top Block ------------- */
+
+#TopBlock {
+	margin-bottom: 100px;
+}
+
+#Capstone {
+	background-color: rgb(226,30,46);
+	height: 40px;
+	width: 400px;
+	float: left;
+}
+
+#CapstoneCompDiv {
+	background-color: rgb(193,37,56);
+	height: 40px;
+	padding: 10px;
+}
+
+/* ----------- Middle Block ------------- */
+
+#MiddleBlock {
+	margin-left: 20px;
+}
+
+#SystemSkills {
+	background-color: rgb(215,78,98);
+	position: relative;
+}
+
+#SystemSkillsComp {
+	background-color: rgb(193,57,82);
+}
+
+#InterpersonalSkills {
+	background-color: rgb(220,113,89);
+}
+
+#InterpersonalSkillsComp {
+	background-color: rgb(227,88,55);
+}
+
+#Attitudes_Values {
+	background-color: rgb(113,200,186);
+}
+
+#Attitudes_ValuesComp {
+	background-color: rgb(82,184,164);
+}
+
+#LeadershipBase {
+	background-color: rgb(82,184,164);
+}
+
+#LeadershipBaseComp {
+	background-color: rgb(57,135,120);
+}
+
+/* ----------- Bottom Block ------------- */
+
+#GlobalKnowledgeBase {
+	background-color: rgb(220,213,187);
+}
+
+#GlobalKnowledgeBaseComp {
+	background-color: rgb(179,173,154);
+} 
+
+
+/*
