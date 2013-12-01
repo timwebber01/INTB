@@ -39,6 +39,7 @@ a:hover {
 /* ----------- Top Block ------------- */
 
 #Capstone {
+	display: inline;
 	background-color: rgb(226,30,46);
 	height: 40px;
 	width: 400px;
@@ -57,9 +58,9 @@ a:hover {
 }
 
 #SystemSkills {
+	display: inline;
 	background-color: rgb(215,78,98);
 	height: 120px;
-	width: 400px;
 	float: left;
 	width: 325px;
 }
@@ -71,6 +72,7 @@ a:hover {
 }
 
 #InterpersonalSkills {
+	display: inline;
 	background-color: rgb(220,113,89);
 	height: 100px;
 	width: 285px;
@@ -85,6 +87,7 @@ a:hover {
 }
 
 #Attitudes_Values {
+	display: inline;
 	background-color: rgb(113,200,186);
 	height: 60px;
 	width: 240px;
@@ -99,6 +102,7 @@ a:hover {
 }
 
 #LeadershipBase {
+	display: inline;
 	background-color: rgb(82,184,164);
 	height: 60px;
 	width: 210px;
@@ -115,6 +119,7 @@ a:hover {
 /* ----------- Bottom Block ------------- */
 
 #GlobalKnowledgeBase {
+	display: inline;
 	background-color: rgb(220,213,187);
 	height: 50px;
 	width: 175px;
