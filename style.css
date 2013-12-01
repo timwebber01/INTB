@@ -6,12 +6,6 @@
 	src: url(HelveticaNeue.dfont);
 }
 
-/* Reset rule */
-* {
-	padding: 0px;
-	margin: 0px;
-}
-
 #Chart {
 	font-family: HelveticaNeueLight;
 	font-size: 12px;
