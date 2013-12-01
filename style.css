@@ -5,6 +5,11 @@
 	font-family: HelveticaNeueLight;
 	src: url(HelveticaNeue.dfont);
 }
+/* Reset rule */
+* {
+	padding: 0px;
+	margin: 0px;
+}
 
 #Chart {
 	font-family: HelveticaNeueLight;
@@ -13,12 +18,12 @@
 	margin: 20px ;
 }
 
-a {
+#Chart a {
 	text-decoration: none;
 	color: #FFFFFF;
 }
 
-a:hover {
+#Chart a:hover {
 	color:#000000;
 }
 /* ------------------------------ Div CSS ---------------------------------- */
@@ -61,6 +66,7 @@ a:hover {
 	display: inline;
 	background-color: rgb(215,78,98);
 	height: 120px;
+	width: 400px;
 	float: left;
 	width: 325px;
 }
@@ -76,7 +82,7 @@ a:hover {
 	background-color: rgb(220,113,89);
 	height: 100px;
 	width: 285px;
-	clear: both;
+	clear: left;
 	float: left;
 }
 
@@ -91,7 +97,7 @@ a:hover {
 	background-color: rgb(113,200,186);
 	height: 60px;
 	width: 240px;
-	clear: both;
+	clear: left;
 	float: left;
 }
 
@@ -102,11 +108,10 @@ a:hover {
 }
 
 #LeadershipBase {
-	display: inline;
 	background-color: rgb(82,184,164);
 	height: 60px;
 	width: 210px;
-	clear:both;
+	clear: left;
 	float: left;
 }
 
@@ -119,11 +124,10 @@ a:hover {
 /* ----------- Bottom Block ------------- */
 
 #GlobalKnowledgeBase {
-	display: inline;
 	background-color: rgb(220,213,187);
 	height: 50px;
 	width: 175px;
-	clear:both;
+	clear: left;
 	float: left;
 }
 
