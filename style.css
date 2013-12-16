@@ -4,12 +4,10 @@
 	font-family: "HelveticaNeueLight";
 	src: url('../HelveticaNeueTTF/HelveticaNeueLight.ttf');
 }
-<<<<<<< HEAD
+
 
 /* Reset rule  
 =======
-/* Reset rule */
->>>>>>> 3534e5b449e1c0431c9f238b17db56c0732042bd
 * {
 	padding: 0px;
 	margin: 0px;
@@ -25,21 +23,14 @@
 	opacity: 1;
 }
 
-<<<<<<< HEAD
+
 #Chart .Block .Competency a {
-=======
-#Chart a {
->>>>>>> 3534e5b449e1c0431c9f238b17db56c0732042bd
 	text-decoration: none;
 	color: #FFFFFF;
 	margin-left: 10px;
 }
 
-<<<<<<< HEAD
 #Chart .Block .Competency a:hover {
-=======
-#Chart a:hover {
->>>>>>> 3534e5b449e1c0431c9f238b17db56c0732042bd
 	color:#000000;
 }
 /* ------------------------------ Div CSS ---------------------------------- */
