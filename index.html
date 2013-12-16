@@ -2,7 +2,10 @@
 <html>
 <head>
 	<link type="text/css" rel="stylesheet" href="style.css"/>
+	<script type='text/javascript' src='../jquery-1_10_2.min.js'></script>
+	<script type='text/javascript' src='script.js'></script>
 	<title> INTB Info Chart </title>
+</head>
 <body>
 	<div id = "Chart">
 		<!-- @author: Timothy Webber
@@ -15,77 +18,105 @@
 			</div>
 			<!-- Capstone -->
 			<div class = "Competency" id = "CapstoneComp">
-				<a href="http://www.northeastern.edu/">
+				<a href="" class="ChartLink" id="CapstoneLink">
 				Global Leadership/</a><br>
-				<a href="http://www.northeastern.edu/">
+				<a href="http://www.northeastern.edu/" class="ChartLink" id="CapstoneLink">
 				Social Innovation Project
 				</a>
+			</div>
+			<!--Expansion-->
+			<div class = "Expand" id= "CapstoneExpand">
+				
 			</div>
 		</div>
 
 		<!-- Middle Block -->
 		<div class = "Block" id = "MiddleBlock">
 
-			<!-- System Skills-->
-			<div class = "Group" id= "SystemSkills">
-				<p>System Skills</p>
+			<div id= "SystemSkillsBlock">
+				<!-- System Skills-->
+				<div class = "Group" id= "SystemSkills">
+					<p>System Skills</p>
+				</div>
+				<div class = "Competency" id = "SystemSkillsComp">
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="SystemSkillsLink">
+					Leading Change</a><br>
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="SystemSkillsLink">
+					Fostering Creativity & Innovation</a><br>
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="SystemSkillsLink">
+					Architechting</a><br>
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="SystemSkillsLink">
+					Making Complex Ethnical Decisions</a><br>
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="SystemSkillsLink">
+					Building Community & Social Capitol</a><br>
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="SystemSkillsLink">
+					Influencing stakeholders</a><br>
+				</div>
 			</div>
-			<div class = "Competency" id = "SystemSkillsComp">
-				<a href="http://www.northeastern.edu/">
-				Leading Change</a><br>
-				<a href="http://www.northeastern.edu/">
-				Fostering Creativity & Innovation</a><br>
-				<a href="http://www.northeastern.edu/">
-				Architechting</a><br>
-				<a href="http://www.northeastern.edu/">
-				Making Complex Ethnical Decisions</a><br>
-				<a href="http://www.northeastern.edu/">
-				Building Community & Social Capitol</a><br>
-				<a href="http://www.northeastern.edu/">
-				Influencing stakeholders</a><br>
+			<!--Expansion-->
+			<div class = "Expand" id= "SystemSkillsExpand">
+				
 			</div>
 
 			<!-- Interpersonal Skills -->
-			<div class = "Group" id = "InterpersonalSkills">
-				<p>Interpersonal Skills</p>
+			<div id= "InterpersonalSkillsBlock">
+				<div class = "Group" id = "InterpersonalSkills">
+					<p>Interpersonal Skills</p>
+				</div>
+				<div class = "Competency" id = "InterpersonalSkillsComp">
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="InterpersonalSkillsLink">
+					Negotiating Across Cultures</a><br>
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="InterpersonalSkillsLink">
+					Managing Intercultural Conflict</a><br>
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="InterpersonalSkillsLink">
+					Leading Multicultural Teams</a><br>
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="InterpersonalSkillsLink">
+					Building Trust & Relations</a><br>
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="InterpersonalSkillsLink">
+					Communicating across cultures</a><br>
+				</div>
 			</div>
-			<div class = "Competency" id = "InterpersonalSkillsComp">
-				<a href="http://www.northeastern.edu/">
-				Negotiating Across Cultures</a><br>
-				<a href="http://www.northeastern.edu/">
-				Managing Intercultural Conflict</a><br>
-				<a href="http://www.northeastern.edu/">
-				Leading Multicultural Teams</a><br>
-				<a href="http://www.northeastern.edu/">
-				Building Trust & Relations</a><br>
-				<a href="http://www.northeastern.edu/">
-				Communicating across cultures</a><br>
+			<!--Expansion-->
+			<div class = "Expand" id= "InterpersonalSkillsExpand">
+				
 			</div>
 
 			<!-- Attitudes/Values -->
-			<div class = "Group" id = "Attitudes_Values">
-				<p>Attitudes/Values</p>
+			<div id= "Attitudes_ValuesBlock">
+				<div class = "Group" id = "Attitudes_Values">
+					<p>Attitudes/Values</p>
+				</div>
+				<div class = "Competency" id = "Attitudes_ValuesComp">
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="Attitudes_ValuesLink">
+					Global Citizenship & Systems Thinking</a><br>
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="Attitudes_ValuesLink">
+					Decoding Culture</a><br>
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="Attitudes_ValuesLink">
+					Globalization & Global Mindset</a><br>
+				</div>
 			</div>
-			<div class = "Competency" id = "Attitudes_ValuesComp">
-				<a href="http://www.northeastern.edu/">
-				Global Citizenship & Systems Thinking</a><br>
-				<a href="http://www.northeastern.edu/">
-				Decoding Culture</a><br>
-				<a href="http://www.northeastern.edu/">
-				Globalization & Global Mindset</a><br>
+			<!--Expansion-->
+			<div class = "Expand" id= "Attitudes_ValuesExpand">
+				
 			</div>
 
 			<!-- Leadership Base -->
-			<div class = "Group" id = "LeadershipBase">
-				<p>Leadership Base</p>
+			<div id= "LeadershipBaseBlock">
+				<div class = "Group" id = "LeadershipBase">
+					<p>Leadership Base</p>
+				</div>
+				<div class = "Competency" id = "LeadershipBaseComp">
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="LeadershipBaseLink">
+					Communicating Like a Leader</a><br>
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="LeadershipBaseLink">
+					Motivating Diverse Followers</a><br>
+					<a href="http://www.northeastern.edu/" class="ChartLink" id="LeadershipBaseLink">
+					Leadership 101</a><br>
+				</div>
 			</div>
-			<div class = "Competency" id = "LeadershipBaseComp">
-				<a href="http://www.northeastern.edu/">
-				Communicating Like a Leader</a><br>
-				<a href="http://www.northeastern.edu/">
-				Motivating Diverse Followers</a><br>
-				<a href="http://www.northeastern.edu/">
-				Leadership 101</a><br>
+			<!--Expansion-->
+			<div class = "Expand" id= "LeadershipBaseExpand">
+				
 			</div>
 		</div>
 
@@ -97,13 +128,16 @@
 				<p>Global Knowledge Base</p>
 			</div>
 			<div class = "Competency" id = "GlobalKnowledgeBaseComp">
-			<a href="http://www.northeastern.edu/">
+			<a href="http://www.northeastern.edu/" class="ChartLink" id="GlobalKnowledgeBaseLink">
 			Foreign Language Proficiency</a><br>
-			<a href="http://www.northeastern.edu/">
+			<a href="http://www.northeastern.edu/" class="ChartLink" id="GlobalKnowledgeBaseLink">
 			Global Knowledge</a><br>
+			</div>
+			<!--Expansion-->
+			<div class = "Expand" id= "GlobalKnowledgeBaseExpand">
+				
 			</div>
 		</div>
 	</div>
 </body>
-</head>
 </html>

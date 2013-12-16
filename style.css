@@ -1,9 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Signika+Negative);
 /* ---------------------------Page Defaults--------------------------------- */
 
 @font-face {
-	font-family: HelveticaNeueLight;
-	src: url(HelveticaNeue.dfont);
+	font-family: "HelveticaNeueLight";
+	src: url('../HelveticaNeueTTF/HelveticaNeueLight.ttf');
 }
 
 /* Reset rule  
@@ -11,36 +10,34 @@
 	padding: 0px;
 	margin: 0px;
 }
-
 */
 
 #Chart {
-	font-family: HelveticaNeueLight;
-	font-size: 12px;
+	font-family: "HelveticaNeueLight"; 
+	font-size: 15px;
 	color: #FFFFFF;
 	margin: 20px;
 	padding: 0px;
+	opacity: 1;
 }
 
-
-
-a {
+#Chart .Block .Competency a {
 	text-decoration: none;
 	color: #FFFFFF;
+	margin-left: 10px;
 }
 
-a:hover {
+#Chart .Block .Competency a:hover {
 	color:#000000;
 }
 /* ------------------------------ Div CSS ---------------------------------- */
 
 .Block {
-	margin-top: 10px;
+	padding-top: 10px;
 }
 
 .Group {
 	padding-left: 30px;
-	padding-top: 0px;
 }
 
 .Competency, a {
@@ -49,92 +46,118 @@ a:hover {
 
 /* ----------- Top Block ------------- */
 
+#TopBlock {
+	width: 700px;
+}
+
 #Capstone {
 	background-color: rgb(226,30,46);
-	height: 52px;
+	height: 55px;
 	width: 400px;
 	float: left;
 }
 
 #CapstoneComp {
 	background-color: rgb(193,37,56);
-	width: 580px;
+	width: 250px;
+	float: right;
+	clear: right;
+}
+
+#CapstoneExpand {
+	float: left;
+	clear: both;
 }
 
 /* ----------- Middle Block ------------- */
 
 #MiddleBlock {
 	margin-left: 20px;
+	width: 665px;
 }
 
 #SystemSkills {
 	background-color: rgb(215,78,98);
 	height: 130px;
-	width: 400px;
-	float: left;
 	width: 325px;
+	clear: left;
+	float: left;
 }
 
 #SystemSkillsComp {
 	background-color: rgb(193,57,82);
 	height: 110px;
-	width: 550px;
+	width: 290px;
+	float: right;
+	clear: right;
 }
 
 #InterpersonalSkills {
 	background-color: rgb(220,113,89);
 	height: 110px;
 	width: 285px;
-	clear: both;
+	clear: left;
 	float: left;
 }
 
 #InterpersonalSkillsComp {
 	background-color: rgb(227,88,55);
 	height: 90px;
-	width: 550px;
+	width: 330px;
+	float: right;
+	clear: right;
 }
 
 #Attitudes_Values {
 	background-color: rgb(113,200,186);
 	height: 70px;
 	width: 240px;
-	clear: both;
+	clear: left;
 	float: left;
 }
 
 #Attitudes_ValuesComp {
 	background-color: rgb(82,184,164);
 	height: 50px;
-	width: 550px;
+	width: 375px;
+	float: right;
+	clear: right;
 }
 
 #LeadershipBase {
 	background-color: rgb(82,184,164);
 	height: 70px;
 	width: 210px;
-	clear:both;
+	clear: left;
 	float: left;
 }
 
 #LeadershipBaseComp {
 	background-color: rgb(57,135,120);
 	height: 50px;
-	width: 550px;
+	width: 405px;
+	float: right;
+	clear: right;
 }
 
 /* ----------- Bottom Block ------------- */
+
+#BottomBlock {
+	width: 700px;
+}
 
 #GlobalKnowledgeBase {
 	background-color: rgb(220,213,187);
 	height: 60px;
 	width: 175px;
-	clear:both;
+	clear: left;
 	float: left;
 }
 
 #GlobalKnowledgeBaseComp {
 	background-color: rgb(179,173,154);
 	height: 40px;
-	width: 580px;
+	width: 475px;
+	float: right;
+	clear: right;
 }
