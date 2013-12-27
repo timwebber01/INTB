@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	var $Chart = $('#Chart');
 	var isOpen = true;
+	var date = new Date();
 
 	var $Capstone1 = $('#Capstone1');
 	var $SystemSkills1 = $('#SystemSkills1');
@@ -86,9 +87,11 @@ $(document).ready(function() {
 	 	var returnid = parseInt(string);
 	 	return expansions[returnid];
 	 };
-
-	$('.ChartLink').click(function(event) {
-		var $objectVersion = correspondingObject(event.target.id);
+	/*
+	 * main on click functions
+	 */
+	function clickRun(event) {
+	 	var $objectVersion = correspondingObject(event.target.id);
 		if (isAnyVisible() == false) { // none open
 			$objectVersion.makeVisible();
 		} else if (isAnyVisible() && $objectVersion.isVisible()) { //click already open div
@@ -96,6 +99,18 @@ $(document).ready(function() {
 		} else if (isAnyVisible() && $objectVersion.isVisible()==false) { //different div open
 			searchAndDestroy();
 			$objectVersion.delay(600).makeVisible();
+		};
+	 };
+
+	 /*
+	  * on click
+	  */
+	$('.ChartLink').click(function(event) {
+		var lastclick = date.getSeconds();
+		var clicktime = new Date().getSeconds();
+		if ( Math.abs(clicktime - lastclick) >= 1) {
+			clickRun(event);
 		}
+		date = new Date();
 	});
 });
