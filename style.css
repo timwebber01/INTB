@@ -1,5 +1,8 @@
 /* ---------------------------Page Defaults--------------------------------- */
-
+/*
+	 @author: Timothy Webber
+	 @date: 12/26/2013
+ */
 #Chart {
 	font-family: Helvetica; 
 	font-size: 15px;
@@ -46,7 +49,6 @@
 
 .nolink {
 	color: white;
-	cursor: pointer;
 	width: auto;
 }
 /* ------------------------------ Div CSS ---------------------------------- */
@@ -214,7 +216,7 @@
 	background-color: rgb(150,0,0);
 }
 #SystemSkills5 {
-	height: 90px;
+	height: 125px;
 	width: 660px;
 	background-color: rgb(150,0,0);
 }

@@ -1,4 +1,8 @@
 $(document).ready(function() {
+	/*
+	 @author: Timothy Webber
+	 @date: 12/26/2013
+	 */
 	var $Chart = $('#Chart');
 	var isOpen = true;
 	var date = new Date();
